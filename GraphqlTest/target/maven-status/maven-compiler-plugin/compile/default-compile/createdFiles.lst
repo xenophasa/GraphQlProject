@@ -1,0 +1,5 @@
+Application\Query.class
+Application\GraphQLEndpoint.class
+Application\Mutation.class
+Application\Song.class
+Application\SongRepository.class

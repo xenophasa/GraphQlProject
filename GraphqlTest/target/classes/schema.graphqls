@@ -1,0 +1,19 @@
+type Song {
+    id: ID!
+    title: String!
+    artist: String!
+}
+
+type Query {
+  allSongs: [Song]
+}
+
+type Mutation {
+    createSong(title: String!, artist: String!): Song
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
+
